@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/WeatherAPI/static/css/main.0a54d784.css",
+    "main.js": "/WeatherAPI/static/js/main.18bb78e8.js",
+    "static/js/787.d62d1c65.chunk.js": "/WeatherAPI/static/js/787.d62d1c65.chunk.js",
+    "static/media/mountains-5689938.png": "/WeatherAPI/static/media/mountains-5689938.6cdc90288e3f310d9f23.png",
+    "static/media/mother-5709418.png": "/WeatherAPI/static/media/mother-5709418.1492a0c839a1d1ee410e.png",
+    "static/media/illustration-4788151_1920.jpg": "/WeatherAPI/static/media/illustration-4788151_1920.59ae558aeb3b5cf93cbf.jpg",
+    "static/media/landscape-309394.png": "/WeatherAPI/static/media/landscape-309394.20254a9e13d034775e18.png",
+    "static/media/christmas-3864552_1920.jpg": "/WeatherAPI/static/media/christmas-3864552_1920.954f243fc45b544486e8.jpg",
+    "static/media/man-5846064_1920.jpg": "/WeatherAPI/static/media/man-5846064_1920.d43d3051c4923119a5a9.jpg",
+    "static/media/dark-2024127.png": "/WeatherAPI/static/media/dark-2024127.15761828c9812b38811a.png",
+    "static/media/landscape-1844231 (1).png": "/WeatherAPI/static/media/landscape-1844231 (1).fd32d6ed47ca4a7226f0.png",
+    "static/media/forest-5375005_1920.jpg": "/WeatherAPI/static/media/forest-5375005_1920.7b3fc869596f0cf459b7.jpg",
+    "static/media/nature-1552091.png": "/WeatherAPI/static/media/nature-1552091.b0ed29f64ff7dcd1a179.png",
+    "index.html": "/WeatherAPI/index.html",
+    "main.0a54d784.css.map": "/WeatherAPI/static/css/main.0a54d784.css.map",
+    "main.18bb78e8.js.map": "/WeatherAPI/static/js/main.18bb78e8.js.map",
+    "787.d62d1c65.chunk.js.map": "/WeatherAPI/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a54d784.css",
+    "static/js/main.18bb78e8.js"
+  ]
+}
