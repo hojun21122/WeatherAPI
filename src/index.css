@@ -1,13 +1,185 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: "montseratt", sans-serif;
+}
+
+.app{
+  background-image: url("./nature-1552091.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.7s ease;
+}
+.app.night{
+  background-image: url("dark-2024127.png");
+  transition: 0.7s ease;
+}
+.app.dayclear{
+  background-image: url("./illustration-4788151_1920.jpg");
+  transition: 0.7s ease;
+}
+.app.dayclouds{
+  background-image: url("./landscape-309394.png");
+  transition: 0.7s ease;
+}
+.app.dayrain{
+  background-image: url("./mother-5709418.png");
+  transition: 0.7s ease;
+}
+.app.daysnow{
+  background-image: url("./christmas-3864552_1920.jpg");
+  transition: 0.7s ease;
+}
+.app.nightclear{
+  background-image: url("./forest-5375005_1920.jpg");
+  transition: 0.7s ease;
+}
+.app.nightclouds{
+  background-image: url("./landscape-1844231\ \(1\).png");
+  transition: 0.7s ease;
+}
+.app.nightrain{
+  background-image: url("./man-5846064_1920.jpg");
+  transition: 0.7s ease;
+}
+.app.nightsnow{
+  background-image: url("./mountains-5689938.png");
+  transition: 0.7s ease;
+}
+
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.3));
+  padding: 25px;
+}
+
+.search-box{
+  display: inline-block;
+  transform: translateX(27%);
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.search-box .search-bar{
+  display: inline-block;
+  width: 70%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 16px 16px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0,0,0,0.2);
+
+  color: #313131;
+  font-size: 1.5vw;
+
+  transition: 0.4s ease;
+
+}
+
+.search-box .search-bar:focus{
+  background-color: rgba(255,255,255,0.75);
+}
+
+.location-box{
+  margin-top: 2.5vw;
+  text-align: center;
+}
+.location-box .location{
+  color: white;
+  font-size: 3vw;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.location-box .date{
+  color: white;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+.location-box .time{
+  color: white;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+.weather-area{
+  display: inline-block;
+  background-color: rgba(33, 31, 41, 0.901);
+  border-radius: 5%;
+  width: 25vw;
+  height: 35vw;
+  padding-top: 0px;
+  transform: translateX(135%);
+  
+  box-shadow: 1px 8px rgba(65, 65, 65, 0.5);
+}
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 2vw auto;
+  background-color: rgba(255, 255, 255, 0.959);
+  border-radius: 7%;
+  
+  padding: 15px 25px;
+
+  color: rgba(0, 0, 0, 0.802);
+  font-size: 7vw;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.175);
+  text-align: center;
+  box-shadow: 3px 6px rgba(50,50,70,0.5);
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 3vw;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.empty_holder{
+  text-align: center;
+  margin-top: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.empty_holder p {
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  padding: 5vw 3vw 5vw 3vw;
+  border-radius: 9%;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.6));
+  display: inline-block;
+}
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}  
 }
